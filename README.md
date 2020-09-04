@@ -8,4 +8,5 @@ linux内核给每个进程都提供了一个独立的虚拟的地址空间，并
 虚拟地址空间的内部分成**内核空间**和**用户空间**2部分，不同字长的处理器，地址空间的范围也不同；
 32位和64位系统，如下所示
 
+<img src="https://github.com/lys861205/memory/blob/master/virtual_memory.png" width="400" heigth="500">
 
