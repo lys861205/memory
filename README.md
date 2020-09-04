@@ -29,7 +29,7 @@ linux内核给每个进程都提供了一个独立的虚拟的地址空间，并
 ## 虚拟内存空间分布
 32位系统如下
 
-<img src="https://github.com/lys861205/memory/blob/master/vitural_layout.png" width="400" heigth="700">
+<img src="https://github.com/lys861205/memory/blob/master/virtual_layout.png" width="400" heigth="700">
 
 通过这张图可以看到，用户空间内存，从低到高分别是5种不同的内存段
 
