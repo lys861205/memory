@@ -29,7 +29,7 @@ linux内核给每个进程都提供了一个独立的虚拟的地址空间，并
 ## 虚拟内存空间分布
 32位系统如下
 
-<img src="https://github.com/lys861205/memory/blob/master/virtual_layout.png" width="300" heigth="500">
+<img src="https://github.com/lys861205/memory/blob/master/virtual_layout.png" width="300" heigth="400">
 
 通过这张图可以看到，用户空间内存，从低到高分别是5种不同的内存段
 
@@ -72,6 +72,7 @@ Linux下通过free工具可以查看内存的使用情况
 Mem:           376G         65G         46G        4.2G        263G        303G
 Swap:            0B          0B          0B
 ```
-|第一列|第二列|第三列|第四列|第五列|第六列|
+|total|used|free|shared|buff/cache|available|
 |-----|------|-----|-----|------|------|
+|内存总大小|已使用内存大小,包括共享内存|未使用内存大小|共享内存大小|缓存和缓冲区大小|可用内存大小|
 
