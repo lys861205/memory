@@ -83,12 +83,15 @@ top - 15:40:27 up 751 days, 18:30, 20 users,  load average: 1.01, 1.04, 1.05
 Tasks: 847 total,   1 running, 846 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  1.3 us,  0.0 sy,  0.0 ni, 98.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 KiB Mem : 39464640+total, 49004744 free, 69201728 used, 27643993+buff/cache
-KiB Swap:        0 total,        0 free,        0 used. 31859532+avail Mem 
+KiB Swap:        0 total,        0 free,        0 used. 31859532+avail Mem
 
-   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                             
-400393 root      20   0  0.111t 0.058t  67628 S   0.0 15.7  14:26.57 IAServer                                                                                                            
-271306 quhang    20   0 9544604 1.537g   7912 S   0.0  0.4   6:06.27 cpptools                                                                                                            
-450356 lys       20   0 6416576 772888   2508 S   0.0  0.2  47:12.47 access_server  
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+   
+400393 root      20   0  0.111t 0.058t  67628 S   0.0 15.7  14:26.57 IAServer
+
+271306 quhang    20   0 9544604 1.537g   7912 S   0.0  0.4   6:06.27 cpptools
+
+450356 lys       20   0 6416576 772888   2508 S   0.0  0.2  47:12.47 access_server
 ```
 * VIRT 是进程虚拟内存的大小，只要是进程申请过的内存，即便还没有真正分配物理内存，也会计算在内
 * RES 是常驻内存的大小，也就是进程实际使用的物理内存大小，但不包括 Swap 和共享内存
